@@ -58,6 +58,6 @@ usethis::use_data(data_dict, overwrite = TRUE)
 
 names(all_articles_df) <- data_dict$clean_name
 
-animals <- all_articles_df
+animals_raw <- all_articles_df
 
-usethis::use_data(animals, overwrite = TRUE)
+usethis::use_data(animals_raw, overwrite = TRUE)

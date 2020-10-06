@@ -1,10 +1,16 @@
-#' Animal description dataset
+#' Raw  Animal description dataset
+#'
+#' @source \url{https://a-z-animals.com/}
+#'
+#' @format A [tibble][tibble::tibble-package] with 610 rows and 48 variables.
+"animals_raw"
+
+#' Cleaned Animal description dataset
 #'
 #' @source \url{https://a-z-animals.com/}
 #'
 #' @format A [tibble][tibble::tibble-package] with 610 rows and 48 variables.
 "animals"
-
 
 #' Animals dataset data dictionary
 #'
