@@ -5,7 +5,7 @@
 \alias{animals}
 \title{Cleaned Animal description dataset}
 \format{
-A \link[tibble:tibble-package]{tibble} with 610 rows and 48 variables.
+A \link[tibble:tibble-package]{tibble} with 610 rows and 2 variables.
 }
 \source{
 \url{https://a-z-animals.com/}

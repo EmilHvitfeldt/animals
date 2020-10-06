@@ -9,7 +9,7 @@
 #'
 #' @source \url{https://a-z-animals.com/}
 #'
-#' @format A [tibble][tibble::tibble-package] with 610 rows and 48 variables.
+#' @format A [tibble][tibble::tibble-package] with 610 rows and `r ncol(animals)` variables.
 "animals"
 
 #' Animals dataset data dictionary
