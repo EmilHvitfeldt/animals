@@ -2,6 +2,7 @@
 
 library(animals)
 library(dplyr)
+library(stringr)
 
 animals <- animals_raw %>%
   mutate(diet = case_when(
@@ -12,6 +13,6 @@ animals <- animals_raw %>%
     str_detect(diet, "^Om") ~ "Omnivore",
     TRUE ~ "Unknown"
   )) %>%
-  select(text, diet)
+  select(text, diet, lifestyle)
 
 usethis::use_data(animals, overwrite = TRUE)
