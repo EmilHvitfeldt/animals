@@ -17,6 +17,6 @@ Depends:
     R (>= 3.5)
 Suggests: 
     tibble
-URL: https://github.com/EmilHvitfeldt/animals
+URL: https://github.com/EmilHvitfeldt/animals, https://emilhvitfeldt.github.io/animals/
 BugReports: https://github.com/EmilHvitfeldt/animals/issues
 Config/roxygen2/version: 8.0.0
